@@ -829,6 +829,11 @@ body.overflow-hidden-header-three {
   height: 110px;
 }
 
+.brand span{
+  font-size: 14pt;
+  font-weight: bold;
+  font-style: italic;
+}
 .brand img {
   height: 75px;
 }
