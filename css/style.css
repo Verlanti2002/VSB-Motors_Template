@@ -829,14 +829,8 @@ body.overflow-hidden-header-three {
   height: 110px;
 }
 
-.brand span{
-  font-size: 13pt;
-  color: darkred;
-  font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
-}
 .brand img {
-  height: 40px;
+  height: 75px;
 }
 
 .header-style-two .brand {
@@ -879,11 +873,14 @@ body.overflow-hidden-header-three {
   padding: 28px 24px;
   display: block;
   position: relative;
-  font-size: 12px;
   color: darkred;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 1000;
-  letter-spacing: 2px;
+  font-family: Orbitron; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: bolder; 
+  line-height: 20px; 
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
