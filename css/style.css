@@ -2336,7 +2336,7 @@ button.close {
 
 .story-container {
   height: 600px;
-  background: url(../images/story-bg.jpg);
+  /*background: url(../images/story-bg.jpg);*/
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -2979,7 +2979,8 @@ button.close {
   margin-bottom: 20px;
 }
 
-.portfolio_single_info {}
+
+/*.portfolio_single_info {}*/
 
 .portfolio_single_info h4 {
   text-transform: uppercase;
