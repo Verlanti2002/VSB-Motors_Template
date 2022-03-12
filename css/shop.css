@@ -775,7 +775,16 @@ body.overflow-hidden-header-three {
   border: solid 1px #eee;
 }
 
+.container_card{
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
 h2{
+  color: black;
+}
+
+h3{
   color: black;
 }
 
@@ -787,13 +796,47 @@ h5{
   color: black;
 }
 
-.col{
-  flex-basis: 25%;
-  padding: 10px;
-  min-width: 200px;
-  margin-bottom: 50px;
+.products{
+  margin-left: 20px;
+  margin-right: 20PX;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 
-.col img{
-  width: 25%;
+.products tr td{
+  width: 2%;
+  /*margin-right: 20px;*/
 }
+
+.products img{
+  width: 90%;
+}
+
+.products .desc{
+  margin-right: 2px;
+}
+
+.products .vehicle_card{
+  margin-right: 50px;
+  margin-bottom: 60px;
+}
+
+.details{
+  width: 20%;
+}
+
+.details h5{
+  margin-right: 10px;
+}
+
+.details .desc{
+  margin-right: 10px;
+}
+
+.details tr td{
+  width: 5%;
+  margin-right: 5px;
+}
+
