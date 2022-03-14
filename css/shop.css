@@ -827,6 +827,12 @@ h5{
   width: 20%;
 }
 
+.line{
+  border-top: 1px solid black;
+  margin-top: 5px;
+}
+
+
 .details h5{
   margin-right: 10px;
 }
