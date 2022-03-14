@@ -869,11 +869,34 @@ body.overflow-hidden-header-three {
   transition: none;
 }
 
+.main-nav .sf-menu li button{
+  background-color:  white;
+  border: 0px;
+  padding: 10px 10px;
+  display: inline-block;
+  position: relative;
+}
+.main-nav .sf-menu li button i{
+  font-size: 20pt;
+  color: #000;
+}
+.main-nav .sf-menu li span{
+  color: #000;
+  padding-left: 10px;
+  font-family: Orbitron; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: bolder; 
+  line-height: 20px; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 .main-nav .sf-menu li a {
   padding: 28px 24px;
-  display: block;
+  display: inline-block;
   position: relative;
-  /*color: darkred;*/
+  color: black;
   font-family: Orbitron; 
   font-size: 14px; 
   font-style: normal; 
