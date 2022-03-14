@@ -6971,3 +6971,22 @@ screen and (max-height: 300px) {
 .container-slideclient {
   padding: 0 0 20px 0;
 }
+
+.link{
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.user_icon{
+  color: black;
+  cursor: pointer;
+}
+
+.user_icon:hover{
+  color: rgb(185, 182, 182);
+}

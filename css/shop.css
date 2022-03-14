@@ -846,3 +846,13 @@ h5{
   margin-right: 5px;
 }
 
+.user_icon{
+  color: black;
+  cursor: pointer;
+}
+
+.user_icon:hover{
+  color: rgb(185, 182, 182);
+}
+
+
