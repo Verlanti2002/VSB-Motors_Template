@@ -15,17 +15,69 @@
       <div class="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form">
-            <img src="images/imglogo.PNG" class="image" alt="" />
+            <table>
+                <img src="images/imglogo.PNG" class="image" alt="" />
 
-            <h2 class="title">Registrati come Vendor</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
-            </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
-            </div>
+                <thead><h2 class="title">Registrazione Vendor</h2></thead>
+                
+                <tr>
+                <td>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Ragione Sociale" />
+                      </div>
+                </td>
+                <td>
+                    <div class="input-field">
+                        <i class="fas fa-industry"></i>
+                        <input type="number" placeholder="Partita IVA" />
+                      </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="input-field">
+                        <i class="fas fa-envelope" aria-hidden="false"></i>
+                        <input type="text" placeholder="Mail" />
+                      </div>
+                </td>
+                <td>
+                    <div class="input-field">
+                        <i class="fas fa-map"></i>
+                        <input type="number" placeholder="Indirizzo" />
+                      </div>
+                </td>
+            </tr>
+                    <tr>
+                        <td>
+                            <div class="input-field">
+                                <i class="far fa-building"></i>
+                                <input type="text" placeholder="Città" />
+                              </div>
+                        </td>
+                        <td>
+                            <div class="input-field">
+                                <i class="fas fa-phone-square	"></i>
+                                <input type="text" placeholder="Telefono" />
+                              </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="input-field">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Password" />
+                              </div>
+                        </td>
+                        <td>
+                            <div class="input-field">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Conferma Password" />
+                              </div>
+                        </td>
+                    </tr>
+
+            </table>
             <input type="submit" value="Login" class="btn solid" />
           </form>
           <form action="#" class="sign-up-form">
@@ -50,13 +102,13 @@
                     <tr>
                         <td>
                             <div class="input-field">
-                                <i class="fas fa-phone" aria-hidden="false"></i>
+                                <i class="fas fa-phone-square" aria-hidden="false"></i>
                                 <input type="text" placeholder="Telefono" />
                               </div>
                         </td>
                         <td>
                             <div class="input-field">
-                                <i class="fas fa-phone"></i>
+                                <i class="fas fa-envelope"></i>
                                 <input type="text" placeholder="Mail" />
                               </div>
                         </td>
@@ -65,13 +117,13 @@
                         <td>
                             <div class="input-field">
                                 <i class="fas fa-lock"></i>
-                                <input type="text" placeholder="Password" />
+                                <input type="password" placeholder="Password" />
                               </div>
                         </td>
                         <td>
                             <div class="input-field">
                                 <i class="fas fa-lock"></i>
-                                <input type="text" placeholder="Conferma Password" />
+                                <input type="password" placeholder="Conferma Password" />
                               </div>
                         </td>
                     </tr>
@@ -88,8 +140,7 @@
           <div class="content">
             <h3> Registrati come cliente </h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-              ex ratione. Aliquid!
+               Con noi avrai accesso all'inventario di tuttI Vendors Partner presenti in Italia e potrai scegliere l'auto più adatta alle tue esigenze.
             </p>
             <button class="btn transparent" id="sign-up-btn">
               Sign up
@@ -100,8 +151,7 @@
           <div class="content">
             <h3>Registrati come Vendor</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              laboriosam ad deleniti.
+                Garantiamo visibilità ai nostri Vendors Partner, andando incontro sia alle vostre esigenze che quella dei vostri futuri clienti.
             </p>
             <button class="btn transparent" id="sign-in-btn">
               Sign in
