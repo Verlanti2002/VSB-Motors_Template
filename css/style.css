@@ -298,8 +298,7 @@ body {
 }
 
 .box-layout {
-  background: #f4f4f4;
-  padding: 0px 30px;
+  background: white;
 }
 
 @media (max-width: 1300px) {
@@ -452,7 +451,7 @@ a:focus {
   width: 100%;
   position: relative;
   z-index: 999;
-  background-color: #fff;
+  background-color: white;
 }
 
 .header-inner.header-scroll-up {
