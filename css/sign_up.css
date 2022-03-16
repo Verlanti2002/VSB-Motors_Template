@@ -106,6 +106,10 @@ form.sign-in-form {
   background-color: red;
 }
 
+#sign-in-btn:hover{
+  background-color: red;
+}
+
 .btn {
   width: 150px;
   background-color: black;
@@ -123,10 +127,6 @@ form.sign-in-form {
 
 .btn:hover {
   background-color: red;
-}
-
-.btn solid{
-
 }
 
 .panels-container {
