@@ -1,0 +1,45 @@
+body { 
+    background-color: #F9F9F9;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.card-header {
+  padding: 5px 15px;
+  font-family: Orbitron; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: bolder; 
+  line-height: 20px; 
+  letter-spacing: 1px
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#distance{
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.fa{
+    margin-right: 10px ;
+}
+
+.eye{
+    position: absolute;
+}
+
+#hide1{
+    display: none;
+}
