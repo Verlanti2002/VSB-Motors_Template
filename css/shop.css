@@ -798,7 +798,7 @@ h5{
 
 .products{
   margin-left: 20px;
-  margin-right: 20PX;
+  margin-right: 20px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -855,5 +855,9 @@ h5{
   color: rgb(185, 182, 182);
 }
 
+.filter{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 
