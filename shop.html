@@ -57,17 +57,158 @@
 
    <div class="filters_container">
       <table class="filters">
+         <caption>CHOOSE YOUR FILTERS</caption>
          <tr>
             <td>
-               <input type="radio" name="nuovo">Nuovo
+               <select name="" id="" name="stato" class="input_box">
+                  <option value="">
+                     Nuovo
+                  </option>
+                  <option value="">
+                     Usato
+                  </option>
+               </select>
+            </td>
+            <td>
+               <select name="" id="" aria-placeholder="Marca" name="marca" class="input_box">
+                  <option value="">
+                     € 500
+                  </option>
+                  <option value="">
+                     € 1000
+                  </option>
+                  <option value="">
+                     € 1500
+                  </option>
+                  <option value="">
+                     € 2000
+                  </option>
+                  <option value="">
+                     € 2500
+                  </option>
+                  <option value="">
+                     € 3000
+                  </option>
+                  <option value="">
+                     € 4000
+                  </option>
+                  <option value="">
+                     € 5000
+                  </option>
+                  <option value="">
+                     € 6000
+                  </option>
+                  <option value="">
+                     € 7000
+                  </option>
+                  <option value="">
+                     € 8000
+                  </option>
+                  <option value="">
+                     € 9000
+                  </option>
+                  <option value="">
+                     € 10000
+                  </option>
+                  <option value="">
+                     € 500
+                  </option>
+                  <option value="">
+                     € 12500
+                  </option>
+                  <option value="">
+                     € 15000
+                  </option>
+                  <option value="">
+                     € 17500
+                  </option>
+                  <option value="">
+                     € 20000
+                  </option>
+                  <option value="">
+                     € 25000
+                  </option>
+                  <option value="">
+                     € 30000
+                  </option>
+                  <option value="">
+                     € 40000
+                  </option>
+                  <option value="">
+                     € 50000
+                  </option>
+                  <option value="">
+                     € 75000
+                  </option>
+                  <option value="">
+                     € 100000
+                  </option>
+                  <option value="">
+                     € 200000
+                  </option>
+                  <option value="">
+                     € 300000
+                  </option>
+                  <option value="">
+                     € 400000
+                  </option>
+                  <option value="">
+                     € 500000
+                  </option>
+               </select>
+            </td> 
+         </tr>
+         <tr>
+            <td>
+               <select name="" id="" name="marca" class="input_box">
+                  <option value="">
+                     Alfa Romeo
+                  </option>
+                  <option value="">
+                     Audi
+                  </option>
+                  <option value="">
+                     Fiat
+                  </option>
+                  <option value="">
+                     Ford
+                  </option>
+                  <option value="">
+                     Mercedes-Benz
+                  </option>
+                  <option value="">
+                     Volkswagen
+                  </option>
+               </select>
+            </td>
+            <td>
+               <input type="text" placeholder="Modello" name="modello" class="input_box">
             </td>
          </tr>
          <tr>
             <td>
-               <input type="radio" name="usato" id="">Usato
+               <input type="number" min="0" max="500000" placeholder="Kilometraggio" name="kilometraggio" class="input_box">
+            </td>
+            <td>
+               <input type="number" min="1900" max="2022" name="anno" placeholder="Anno" class="input_box">
             </td>
          </tr>
-      </table>   
+         <tr>
+            <td>
+               <input type="text" placeholder="Città" name="città" class="input_box">
+            </td>
+            <td>
+               <input type="text" placeholder="CAP" name="CAP" class="input_box">
+            </td>
+         </tr>
+
+         <tr>
+            <td style="width: 50px;">
+               <input type="submit" value="Cerca" class="submit">
+            </td>
+         </tr>
+      </table>
+        
    </div>
 
    <div class="container_card">
