@@ -797,8 +797,8 @@ h5{
 }
 
 .products{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -811,7 +811,8 @@ h5{
 }
 
 .products img{
-  width: 90%;
+  height: auto;
+  width: 98%;
 }
 
 .products .desc{
@@ -858,18 +859,17 @@ h5{
 .filters_container{
   width: 1400px;
   height: 500px;
-  margin-left: 260px;
-  margin-right: 300px;
+  margin-left: 70px;
+  margin-right: 60px;
   background-image: url("/images/538056924.jpg");
   background-size: 100%;
   padding-top: 30px;
   padding-bottom: 20px;
   padding-left: 50px;
-  padding-right: 500px;
 }
 
 .filters_container .filters{
-  background-color: white;
+  background-color: #ffffff57;
   margin-top: 40px;
   width: 500px;
   height: 300px;
@@ -878,9 +878,9 @@ h5{
 }
 
 .filters_container .filters caption{
-  background-color: white;
+  background-color: #ffffff57;
   font-size: large;
-  color: black;
+  color: white;
   font-weight: bolder;
   text-align: center;
   border-top-left-radius: 10px;
@@ -896,6 +896,7 @@ h5{
   margin-right: 30px;
   padding-left: 10px;
   margin-top: 20px;
+  border-radius: 10px solid white;
 }
 
 .filters_container .filters .submit{
@@ -904,10 +905,16 @@ h5{
   margin-bottom: 20px;
   width: 150px;
   height: 40px;
-  background-color: lightgreen;
+  background-color: white;
   border: white;
   color: black;
   font-size: small;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.filters_container .filters .submit:hover{
+  box-shadow: 0 12px 16px 0 rgb(66, 66, 66), 0 17px 50px 0 rgba(66,66,66);
+  background-color: #ffffff6e;
 }
 
 
