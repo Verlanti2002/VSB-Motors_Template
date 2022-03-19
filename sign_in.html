@@ -1,106 +1,55 @@
 <!DOCTYPE html>
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>VSB-MOTORS/SING-IN</title>
-
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
-    </head>
-
-<body>
-    <div class="">
-        <div class="container d-flex justify-content-center" style="margin-top: 150px;">
-            <div class="row">
-                <div class="card">
-                    <div class="card-header">
-                        <b>Login</b>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/sign_in.css" />
+    <title>VSB-MOTORS/SIGN-UP</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <table>
+                <img src="images/logo.png" class="image" alt=""/>
+                    <div class="input-field">
+                        <i class="fas fa-envelope" aria-hidden="false"></i>
+                        <input type="text" placeholder="Email" />
+                      </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" />
                     </div>
-                    <div class="card-body">
-                        <form name="login" id="login">
-                            <div class="row">
-                                <div class="col">
-                                    <span class="profile-img">
-                                        <img src="/images/logo.png">
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <hr> <!-- other content  -->
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group">
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text" id="basic-addon1">
-                                                    <i class='fas fa-user-shield'></i>
-                                                </span>
-                                            </div>
-                                            <input class="form-control" placeholder="Email" id="loginEmail" name="loginEmail" type="email" autofocus>
-                                        </div>
-                                    </div>
-                                    <div class="form-group"> <!--password-->
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text" id="basic-addon1">
-                                                    <i class='fas fa-user-secret'></i>
-                                                </span>
-                                            </div>
-                                                <div>
-                                                    <input type="password" class="form-control" palceholder="Password" id="pwd">
-                                                    <span class="eye" onclick="myFunction()">
-                                                        <i id="hide1" class="fa fa-eye"></i>
-                                                        <i id="hide2" class="fa fa-eye-slash"></i>
-                                                    </span>
-                                                </div>
-                                                
-                                            </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="button" class="btn btn-lg btn-success btn-block submit" id="login_m"  value="Sign in" >
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+
+
+            </table>
+            <input type="submit" value="Submit" class="btn solid" />
+          </form>
+
         </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3> Non sei registrato? </h3>
+            <p>
+                Verrai reindirizzato su una pagina, sia se sei Vendor che un Cliente
+            </p>
+            <a href="sign_up.html">
+                <button class="btn transparent" id="sign-in-btn">
+                Sign Up
+                </button>
+            </a>
+          </div>
+        </div>
+
+      </div>
     </div>
-    
-    
-    <script>
-        function myFunction(){
-            var x=document.getElementById("pwd");
-            var y=document.getElementById("hide1");
-            var z=document.getElementById("hide2");
-
-            if(x.type=== 'password'){
-                x.type="text";
-                y.style.display= "block"; 
-                z.style.display= "none";
-            }
-            else{
-                x.type="password";
-                y.style.display= "none"; 
-                z.style.display= "block";
-            }
-        }
-    </script> 
-
-
-</body>
+  </body>
+</html>
