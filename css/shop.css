@@ -796,7 +796,7 @@ h5{
   color: black;
 }
 .products{
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 50px;
@@ -805,14 +805,14 @@ h5{
 }
 
 .products tr td{
-  border: 1px solid rgb(0, 255, 170);
+  /*border: 1px solid rgb(0, 255, 170);*/
   width: 2%;
   /*margin-right: 20px;*/
 }
 
 /**** --------------------------- Card singola prodotto ----------------------------****/
 .container_card{ 
-  border: 1px solid blueviolet;
+  /*border: 1px solid blueviolet;*/
 }
 .vehicle_card_row_container{
   display: flex;
@@ -825,18 +825,19 @@ h5{
 }
 .vehicle_card{
   height: auto;
-  width: 27%;
-  border: 1px solid red;
+  width: 25%;
+  /*border: 1px solid red;*/
   border-radius: 10px;
   background-color: white;
   -webkit-transition: all 0.3s 0s ease-in;
   -moz-transition: all 0.3s 0s ease-in;
   -o-transition: all 0.3s 0s ease-in;
   transition: all 0.3s 0s ease-in;
+  padding: 1% 1% 1% 1%;
 }
 
 .desc{
-  border: 1px solid rgb(0, 60, 255);
+  /*border: 1px solid rgb(0, 60, 255);*/
   margin-right: 2px;
 }
 
@@ -846,7 +847,7 @@ h5{
 }
 
 .details{
-  border: 1px solid salmon;
+  /*border: 1px solid salmon;*/
   display: block;
 }
 
@@ -878,64 +879,94 @@ h5{
 }
 
 .filters_container{
-  width: 1400px;
-  height: 500px;
-  margin-left: 70px;
-  margin-right: 60px;
+  width: 87.4%;
+  height: auto;
   background-image: url("/images/538056924.jpg");
+  margin-left: 6.8%;
+  background-repeat: no-repeat;
   background-size: 100%;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 50px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-left: 6.7%;
 }
 
 .filters_container .filters{
-  background-color: #ffffff57;
+  background-color: white;
   margin-top: 40px;
-  width: 500px;
-  height: 300px;
+  width: 30%;
+  height: 25em;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .filters_container .filters caption{
-  background-color: #ffffff57;
+  background-color: white;
   font-size: large;
   color: white;
   font-weight: bolder;
   text-align: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .filters_container .filters .input_box{
   width: 200px;
   height: 40px;
+  color: white;
   font-size: medium;
-  color: black;
   margin-left: 30px;
   margin-right: 30px;
   padding-left: 10px;
   margin-top: 20px;
-  border-radius: 10px solid white;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+
+select{
+  width: 200px;
+  height: 40px;
+  color: grey;
+  font-size: medium;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+
+input::placeholder {
+  color: grey;
+}
+
+option {
+  background: black;
+  color: white; 
+}
+
+option:first-child{
+  color: grey;
 }
 
 .filters_container .filters .submit{
-  margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 150px;
-  height: 40px;
-  background-color: white;
-  border: white;
-  color: black;
+  margin-left: 76%;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  width: 50%;
+  height: 60%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
   font-size: small;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .filters_container .filters .submit:hover{
-  box-shadow: 0 12px 16px 0 rgb(66, 66, 66), 0 17px 50px 0 rgba(66,66,66);
-  background-color: #ffffff6e;
+  box-shadow: 0 12px 16px 0 rgb(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #bebbbb6e;
 }
 
 

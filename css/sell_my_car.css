@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     line-height: 24px;
@@ -9,7 +9,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden!important;
     -webkit-font-smoothing: antialiased;
-  }
+  }*/
   
   .inner-conterner {
     background-color: #fff;
@@ -786,6 +786,7 @@ body {
 
   html, body {
     min-height: 100%;
+    background-image: url("/images/11207.webp");
     }
     body, div, form, input, select { 
     padding: 0;
@@ -803,18 +804,22 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     }
+
     h2 {
-    margin: 0 0 0 8px;
+    margin: 0 0 0 0px;
+    padding-left: 0;
     }
+
     .main-block {
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    padding: 25px;
+    height: auto;
+    width: 35%;
     background: white (0, 0, 0, 0.5); 
+    margin-left: 35%;
     }
     .left-part, form {
     padding: 25px;
@@ -824,19 +829,25 @@ body {
     color: black;
     }
     .vsb-logo {
-    margin-left: 230px;
+    font-size: 72px;
+    color: black;
+    padding-left: 15%;
     }
     form {
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-left: 7%;
     }
     .title {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
     }
     .info {
     display: flex;
     flex-direction: column;
     }
-    input, select {
+    #input, select {
     padding: 5px;
     margin-bottom: 30px;
     background: transparent;
@@ -909,5 +920,12 @@ body {
       text-align:justify;
       display: flex;
       justify-content: space-between;
-    }
-  }
+      
+    }     
+}
+
+
+
+
+
+
