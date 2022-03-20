@@ -797,7 +797,7 @@
     color: white;
     }
     body {
-    background-color: white no-repeat center;
+    background-color: white; /*no-repeat center;*/
     background-size: cover;
     }
     h1, h2 {
