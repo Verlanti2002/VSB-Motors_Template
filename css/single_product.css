@@ -786,9 +786,11 @@ body {
 
   .content{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    /*justify-content: space-around;*/
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  }
+
+  .img_car{
+    width: 40%;
+    height: auto;
   }

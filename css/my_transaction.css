@@ -783,4 +783,99 @@ body {
   .user_icon:hover{
     color: rgb(185, 182, 182);
   }
+
+  .container_card{
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  
+  h2{
+    color: black;
+  }
+  
+  h3{
+    color: black;
+  }
+  
+  h4{
+    color: black;
+  }
+  
+  h5{
+    color: black;
+  }
+  .products{
+    /*border: 1px solid green;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .products tr td{
+    /*border: 1px solid rgb(0, 255, 170);*/
+    width: 2%;
+    /*margin-right: 20px;*/
+  }
+  
+  /**** --------------------------- Card singola prodotto ----------------------------****/
+  .container_card{ 
+    /*border: 1px solid blueviolet;*/
+  }
+  .vehicle_card_row_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .vehicle_card{
+    height: auto;
+    width: 25%;
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    background-color: white;
+    -webkit-transition: all 0.3s 0s ease-in;
+    -moz-transition: all 0.3s 0s ease-in;
+    -o-transition: all 0.3s 0s ease-in;
+    transition: all 0.3s 0s ease-in;
+    padding: 1% 1% 1% 1%;
+  }
+  
+  .desc{
+    /*border: 1px solid rgb(0, 60, 255);*/
+    margin-right: 2px;
+  }
+  
+  .vehicle_card:hover{
+    box-shadow: 0 12px 16px 0 rgb(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #ffffff6e;
+  }
+  
+  .details{
+    /*border: 1px solid salmon;*/
+    display: block;
+  }
+  
+  .line{
+    border-top: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  .details h5{
+    margin-right: 10px;
+  }
+  
+  .details .desc{
+    margin-right: 5px;
+  }
+  
+  .details tr td{
+    width: 5%;
+    margin-right: 5px;
+  }
+
   
