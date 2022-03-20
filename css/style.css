@@ -953,6 +953,21 @@ body.overflow-hidden-header-three {
   color: rgb(185, 182, 182);
 }
 
+#drop{
+  padding: 28px 24px;
+    display: inline-block;
+    position: relative;
+    color: black;
+    font-family: Orbitron;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 .main-nav .sf-menu ul li {
   min-width: 225px;
   text-align: left;
