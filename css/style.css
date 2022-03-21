@@ -464,19 +464,7 @@ a:focus {
   transform: translateY(-105px) translateZ(0);
 }
 
-.header-inner.header-scroll-fixed {
-  position: fixed;
-  top: 0;
-  -webkit-transform: translateY(0px) translateZ(0);
-  -moz-transform: translateY(0px) translateZ(0);
-  transform: translateY(0px) translateZ(0);
-  -webkit-transition: -webkit-transform .5s ease-in-out;
-  -moz-transition: -moz-transform .5s ease-in-out;
-  transition: transform .5s ease-in-out;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
-}
+
 
 .header-table {
   display: table;
@@ -493,13 +481,9 @@ a:focus {
   vertical-align: middle;
 }
 
-.header-scroll-fixed.sticky-menu {
-  padding: 5px 100px 0px 100px;
-}
 
-.header-scroll-fixed .header-three {
-  background: #8a8f6a;
-}
+
+
 
 .header-scroll-fixed .brand img {
   height: 65px;
@@ -520,28 +504,6 @@ a:focus {
   -webkit-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
-
-.header-three.navbar-fixed-top .brand {
-  height: 180px;
-  width: 100%;
-}
-
-.header-three.navbar-fixed-top .brand img {
-  height: 95px;
-}
-
-.header-scroll-fixed .navbar-fixed-top .brand {
-  height: 90px;
-}
-
-.header-scroll-fixed .navbar-fixed-top .brand img {
-  height: 70px;
-}
-
-.header-scroll-fixed .navbar-fixed-inner-container {
-  width: 1170px;
-  margin: 0 auto;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -1694,6 +1656,45 @@ span.description {
 }
 
 
+/********* Banner *********/
+
+/* The animation code */
+@keyframes example {
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }  
+}
+.container-banner{
+  background-color: #000;
+  height: 55vh;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  animation: 1s ease 0s normal forwards 1 example;
+
+}
+
+.container-banner img{
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 5%;
+  width: 30%;
+  height: 30vh;
+}
+
+.container-banner h3{
+  color: white;
+  font-family: Orbitron;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 50%;
+  width: 30%;
+  height: auto; 
+}
+
+
+
+.
 /********* About us *********/
 
 .container-about {
@@ -2387,28 +2388,6 @@ button.close {
   height: 700px;
 }
 
-.story-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.story-wrapper:before {
-  clear: both;
-  display: block;
-  content: '';
-}
-
-.story-wrapper .story-details,
-.story-wrapper .storu-img {}
-
-.story-wrapper .story-info {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  ;
-}
 
 /*.small-font-title {}*/
 
@@ -6494,7 +6473,7 @@ screen and (max-height: 300px) {
 .slider-wrapper {
   position: relative;
   overflow: hidden;
-  max-height: 600px;
+  max-height: 520px;
 }
 
 .fr-slider,
