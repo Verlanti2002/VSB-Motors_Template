@@ -23,12 +23,10 @@
    <link href="css/style.css" rel="stylesheet">
    <!-- Animate CSS-->
    <link href="css/animate.css" rel="stylesheet">
+   <!-- Boostrap Icons -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
+   <!-- Swiper CSS-->
+   <link rel="stylesheet" href="/css/swiper-bundle.min.css">
 </head>
 
 <body class="box-layout">
@@ -55,7 +53,7 @@
                               <a href="#about" class="effect">About</a>
                            </li>
                            <li>
-                              <a href="" class="effect">Contact</a>
+                              <a href="#future" class="effect">Future</a>
                            </li>
                            <button class="button" style="margin-left: 5%;">Test Drive</button>
                            <li class="has-children" style="width: 10%; height: auto;">
@@ -119,7 +117,10 @@
                <div class="col-md-12">
                   <h3 class="title-un">WHO WE ARE</h3>
                   <div class="title-un-icon"><i class="fa ion-ios-flame-outline"></i></div>
-                  <p class="title-un-des">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, </p>
+                  <p class="title-un-des">Noi siamo VSB-Motors, una piattaforma online in cui le concessionarie possano inserire annunci per la vendita delle loro vetture e gli
+                     acquirenti, visualizzando questi annunci, possano finalmente trovare l'auto desiderata sin da bambino! Quindi VSB-Motors agirà da intermediario tra le concessionarie e i clienti
+                     interessati all’acquisto di un’autovettura ordinabile direttamente da casa in modo semplice e veloce.
+                     e intuitivo. </p>
                </div>
             </div>
             <div class="row">
@@ -184,10 +185,14 @@
       </div>
       <!-- End About Section -->
 
+      <!-- Future Section -->
+      <a name="future"></a>
       <section class="about section">
          <div class="about__container container grid">
             <div class="about__group">
-               <img src="/images/about.jpg" alt="" class="about__img">
+               <figure>
+                  <img src="/images/about.jpg" alt="" class="about__img">
+               </figure>
             </div>
 
             <div class="about__data">
@@ -201,12 +206,165 @@
             </div>
          </div>
       </section>
+      <!-- End Future Section -->
 
-      <video autoplay muted loop>
-         <source src="video/video1.mp4" type="video/mp4">
-         <source src="movie.ogg" type="video/ogg">
-         Your browser does not support the video tag.
-      </video>
+      <center>
+         <video autoplay muted loop width="70%" height="auto">
+            <source src="video/video1.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+         </video>
+      </center>   
+
+      <!-- Slider Shop Section -->
+      <section class="popular section" style="margin-top: 3%;">
+         <h2 class="section__title" style="text-align: center; color: black; margin-bottom: 2%;">
+            Choose Your Favourite Car
+         </h2>
+         <div class="popular__container container swiper">
+            <div class="swiper-wrapper">
+               <article class="popular__card swiper-slide">
+                  <div class="shape shape__smaller">
+                     <h1 class="popular__title">Porsche</h1>
+                     <h3 class="popular__subtitle">Turbo S</h3>
+                     <img src="/images/popular1.png" class="popular__img">
+                     <div class="popular__data">
+                        <div class="popular__data-group">
+                           <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group"> 
+                           <i class="ri-funds-box-line"></i> 356 Km/h
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> Electric
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> 580 Cv
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="popular__price">€ 175.900</h3>
+                  <button class="popular__button">
+                     <i class="bi bi-bag-check"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card swiper-slide">
+                  <div class="shape shape__smaller">
+                     <h1 class="popular__title">Porsche</h1>
+                     <h3 class="popular__subtitle">Taycan</h3>
+                     <img src="/images/popular2.png" class="popular__img">
+                     <div class="popular__data">
+                        <div class="popular__data-group">
+                           <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group"> 
+                           <i class="ri-funds-box-line"></i> 356 Km/h
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> Electric
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> 580 Cv
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="popular__price">€ 114.900</h3>
+                  <button class="popular__button">
+                     <i class="bi bi-bag-check"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card swiper-slide">
+                  <div class="shape shape__smaller">
+                     <h1 class="popular__title">Porsche</h1>
+                     <h3 class="popular__subtitle">Turbo S Cross</h3>
+                     <img src="/images/popular3.png" class="popular__img">
+                     <div class="popular__data">
+                        <div class="popular__data-group">
+                           <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group"> 
+                           <i class="ri-funds-box-line"></i> 356 Km/h
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> Electric
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> 580 Cv
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="popular__price">€ 150.900</h3>
+                  <button class="popular__button">
+                     <i class="bi bi-bag-check"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card swiper-slide">
+                  <div class="shape shape__smaller">
+                     <h1 class="popular__title">Porsche</h1>
+                     <h3 class="popular__subtitle">Boxster 718</h3>
+                     <img src="/images/popular4.png" class="popular__img">
+                     <div class="popular__data">
+                        <div class="popular__data-group">
+                           <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group"> 
+                           <i class="ri-funds-box-line"></i> 356 Km/h
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> Electric
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> 580 Cv
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="popular__price">€ 125.900</h3>
+                  <button class="popular__button">
+                     <i class="bi bi-bag-check"></i>
+                  </button>
+               </article>
+
+               <article class="popular__card swiper-slide">
+                  <div class="shape shape__smaller">
+                     <h1 class="popular__title">Porsche</h1>
+                     <h3 class="popular__subtitle">Cayman</h3>
+                     <img src="/images/popular5.png" class="popular__img">
+                     <div class="popular__data">
+                        <div class="popular__data-group">
+                           <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group"> 
+                           <i class="ri-funds-box-line"></i> 356 Km/h
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> Electric
+                        </div>
+                        <div class="popular__data-group">
+                           <i class="ri-charging-pile-2-line"></i> 580 Cv
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="popular__price">€ 128.900</h3>
+                  <button class="popular__button">
+                     <i class="bi bi-bag-check"></i>
+                  </button>
+               </article>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+
+      <!-- End Slider Shop Section -->
+
+      <!-- Offer Section -->
+      <section class="offer section">
+         
+      </section>
+
+      
  
    <script src="js/jquery.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
@@ -221,6 +379,7 @@
    <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
    <script type="text/javascript" src="js/SmoothScroll.js"></script>
    <script src="js/main.js"></script>
+   <script src="/js/swiper-bundle.min.js"></script>
 </body>
 
 </html>

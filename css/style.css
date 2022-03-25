@@ -517,50 +517,7 @@ video{
 .container-about {
   background-color: #fff;
   padding: 60px 0 60px 0;
-}
-
-.container-about-2 {
-  background-color: #fff;
-  padding: 40px 0 40px 0;
-}
-
-.container-newsletter {
-  background: #fafafa;
-  padding: 60px 0 60px 0;
-}
-
-.container-about-3 {
-  background-color: #f5f5f5;
-  padding: 63px 0 40px 0;
-}
-
-
-/*=================================================
-6 - Service box 
-=================================================*/
-
-
-/********* container and base *********/
-
-.container-our-services {
-  padding: 70px 0 70px 0;
-}
-
-.services-box-margin {
-  margin: 0px 0 30px 0;
-}
-
-.container-services-sa {
-  background-color: #fff;
-  padding: 81px 0 34px 0;
-}
-
-.service-tagline {
-  font-size: 16px;
-  line-height: 31px;
-  /* font-weight: 500; */
-  text-align: right;
-  color: #666;
+  margin-bottom: 1%;
 }
 
 
@@ -904,6 +861,53 @@ video{
   justify-content: space-between;
 }
 
+.about__group img{
+  position: relative;
+}
+
+.about__group figure::before{
+  position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+
+.about__group figure:hover::before{
+  -webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 150%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 150%;
+	}
+}
+
+/*.about__group img{
+  -webkit-transform: rotate(15deg) scale(0.7);
+	transform: rotate(15deg) scale(0.7);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.about__group img:hover{
+  -webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}*/
+
 .about__img{
   border-radius: .5rem;
   padding: 2% 2% 2% 2%;
@@ -919,3 +923,106 @@ video{
   margin-bottom: 2rem;
 }
 
+.popular__container{
+  padding-top: 1rem;
+}
+
+.popular__card{
+  position: relative;
+  width: 238px;
+  background-color: hsl(219, 4%, 7%);
+  padding: 2rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 3.5rem;
+  overflow: hidden;
+}
+
+/*.shape__smaller{
+  width: 180px;
+  height: 180px;
+  
+}
+
+.popular__card .shape__smaller{
+  position: absolute;
+  top: -2.5rem;
+  left: -2.5rem;
+}*/
+
+.popular__title,
+.popular__subtitle,
+.popular__img{
+  position: relative;
+}
+
+.popular__title{
+  font-size: 1.5rem;
+  margin-bottom: .25rem;
+  color: white;
+}
+
+.popular__subtitle{
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+}
+
+.popular__img{
+  width: 160px;
+  margin: .75rem 0 1.25rem 1.5rem;
+  transition: .3s;
+}
+
+.popular__data{
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: .5rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.popular__data-group{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: .75rem;
+  color: white;
+}
+
+.popular__data i{
+  font-size: 1rem;
+}
+
+.popular__price{
+  font-size: 1rem;
+  color: white;
+}
+
+.popular__button{
+  border: none;
+  outline: none;
+  padding: .75rem 1rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 1rem 0 1rem 0;
+  transition: .3s;
+  cursor: pointer;
+  background-color: black;
+}
+
+.popular__button:hover{
+  background-color: white;
+}
+
+
+.popular__card:hover .popular__img{
+  transform: translateY(-.25rem);
+}
+
+.swiper-pagination-bullet{
+  background: hsl(219, 8%, 75%);
+}
+
+.swiper-pagination-bullet-active{
+  background-color: hsl(219, 69%, 56%);
+}
