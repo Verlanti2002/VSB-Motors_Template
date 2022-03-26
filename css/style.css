@@ -841,8 +841,8 @@ video{
 }
 
 .button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+  background-color: white; /* Green */
+  color: black;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -1102,7 +1102,7 @@ video{
   max-width: initial;
   width: 400px;
   bottom: 2rem;
-  right: -5.5;
+  right: -60rem;
 }
 
 .logos__img{
