@@ -789,6 +789,15 @@ body {
     margin-right: 20px;
   }
   
+  .vehicle_card img{
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .vehicle_card table{
+    height: auto;
+    max-width: 100%;
+  }
   h2{
     color: black;
   }
