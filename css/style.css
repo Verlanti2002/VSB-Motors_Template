@@ -527,6 +527,8 @@ video{
   transition: all .15s linear;
 }
 
+/** End Navbar **/
+
 /********* About us *********/
 
 .container-about {
@@ -1129,6 +1131,10 @@ video{
   background-color: hsl(219, 4%, 7%);
   margin-top: 3%;
 
+}
+
+.logoos_content a{
+  text-decoration: none;
 }
 
 .logos__img:hover{
