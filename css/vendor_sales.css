@@ -49,6 +49,7 @@ body {
   }
   
   .header-inner.header-scroll-up {
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-transition: -webkit-transform .4s ease-in-out;
     -moz-transition: -moz-transform .4s ease-in-out;
@@ -383,8 +384,6 @@ body {
   
   /* active state, i.e. menu open */
   
-  .nav-button.active {}
-  
   .nav-button.active span {
     background: none;
   }
@@ -412,9 +411,7 @@ body {
   
   /*** Header style four ****/
   
-  .header-four {}
-  
-  
+
   /*** Brand logo ***/
   
   .brand {
@@ -723,7 +720,6 @@ body {
       border: none;
       border-top: 1px solid #e8e8e8;
     }
-    .main-nav .sf-menu ul li:first-child {}
     .sf-menu ul,
     .sf-menu ul ul {
       position: static;
@@ -793,45 +789,16 @@ body {
     height: 100%;
     max-width: 100%;
   }
+  
+  .title_car{
+    font-size: 1.2em;
+    font-family:  Orbitron;
+    font-weight: 800;
+  }
 
-  .vehicle_card table{
-    height: auto;
-    max-width: 100%;
-  }
-  h2{
-    color: black;
-  }
-  
-  h3{
-    color: black;
-  }
-  
-  h4{
-    color: black;
-  }
-  
-  h5{
-    color: black;
-  }
-  .products{
-    /*border: 1px solid green;*/
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .products tr td{
-    /*border: 1px solid rgb(0, 255, 170);*/
-    width: 2%;
-    /*margin-right: 20px;*/
-  }
   
   /**** --------------------------- Card singola prodotto ----------------------------****/
-  .container_card{ 
-    /*border: 1px solid blueviolet;*/
-  }
+
   .vehicle_card_row_container{
     display: flex;
     align-items: center;
@@ -852,10 +819,14 @@ body {
     -o-transition: all 0.3s 0s ease-in;
     transition: all 0.3s 0s ease-in;
     padding: 1% 1% 1% 1%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    margin-bottom: 3%;
+
   }
   
   .desc{
     /*border: 1px solid rgb(0, 60, 255);*/
+    margin: 0px;
     margin-right: 2px;
   }
   
@@ -868,23 +839,28 @@ body {
     /*border: 1px solid salmon;*/
     display: block;
   }
+
+    
   
+  
+  
+
+  .col{
+    border-width:  1px;
+    border-color: #111111;
+  }
+
   .line{
     border-top: 1px solid black;
     margin-top: 5px;
   }
   
-  .details h5{
-    margin-right: 10px;
+  .h1{
+    font-family: Orbitron;
+    text-align: center;
   }
   
-  .details .desc{
-    margin-right: 5px;
-  }
-  
-  .details tr td{
-    width: 5%;
-    margin-right: 5px;
-  }
+
+
 
   
