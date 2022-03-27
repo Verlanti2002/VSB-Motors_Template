@@ -1228,3 +1228,79 @@ video{
 .footer__social-link{
   font-size: 2rem;
 }
+
+
+/** Features Section **/
+.features{
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 6%;
+}
+
+.features__title{
+  text-align: center;
+  color: black;
+}
+
+.features__container{
+  padding-top: 2rem;
+  grid-template-columns: 285px;
+  justify-content: center;
+}
+
+.features__group{
+  display: grid;
+  position: relative;
+  z-index: 10;
+}
+
+.features__img{
+  width: 150px;
+  justify-self: center;
+}
+
+.features__card{
+  width: 112px;
+  /*background-image: linear-gradient(rgba(219, 216, 216, 0.2), rgba(146,146,146,0.2));*/
+  background-color: hsla(0, 0%, 100%, .1);
+  backdrop-filter: blur(16px);
+  border-radius: 2rem;
+  text-align: center;
+  color: black;
+  position: absolute;
+}
+
+.features__card-1{
+  top: 4rem;
+  left: 45rem;
+}
+
+.features__card-2{
+  top: 8rem;
+  right: 45rem;
+}
+
+.features__card-3{
+  left: 45rem;
+  bottom: 2rem;
+}
+
+.features__card-title{
+  font-size: 1rem;
+  margin-bottom: .25rem;
+}
+
+.features__card-description{
+  font-size: 1rem;
+}
+
+.features__map{
+  max-width: initial;
+  display: block;
+  width: 20%;
+  position: absolute;
+  right: 40%;
+  top: 8rem;
+  margin: auto;
+  transform: rotate(-22deg);
+}
