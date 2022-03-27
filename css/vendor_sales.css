@@ -31,8 +31,7 @@ body {
     margin: 0;
   }
   
-  a:
-  hover,
+  a:hover,
   a:focus {
     color: #5d5d5d;
   }
@@ -50,6 +49,7 @@ body {
   }
   
   .header-inner.header-scroll-up {
+    backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-transition: -webkit-transform .4s ease-in-out;
     -moz-transition: -moz-transform .4s ease-in-out;
@@ -384,8 +384,6 @@ body {
   
   /* active state, i.e. menu open */
   
-  .nav-button.active {}
-  
   .nav-button.active span {
     background: none;
   }
@@ -413,9 +411,7 @@ body {
   
   /*** Header style four ****/
   
-  .header-four {}
-  
-  
+
   /*** Brand logo ***/
   
   .brand {
@@ -724,7 +720,6 @@ body {
       border: none;
       border-top: 1px solid #e8e8e8;
     }
-    .main-nav .sf-menu ul li:first-child {}
     .sf-menu ul,
     .sf-menu ul ul {
       position: static;
@@ -845,9 +840,8 @@ body {
     display: block;
   }
 
-  .details p{
     
-  }
+  
   
   
 
