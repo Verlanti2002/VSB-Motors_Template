@@ -1,11 +1,11 @@
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
   line-height: 24px;
-  color: #7d7d7d;
   font-weight: 400;
   letter-spacing: 0.06em;
-  background-color: #f5f5f7;
+  background-color: white;
   overflow-y: scroll;
   overflow-x: hidden!important;
   -webkit-font-smoothing: antialiased;
@@ -552,40 +552,6 @@ body.overflow-hidden-header-three {
   color: #8a8f6a !important;
 }
 
-
-/*** arrows (for all except IE7) **/
-
-.sf-arrows .sf-with-ul {
-  padding-right: 2.5em;
-  *padding-right: 1em;
-  /* no CSS arrows for IE7 (lack pseudo-elements) */
-}
-
-.sf-arrows .sub-menu .sf-with-ul:after {
-  content: '';
-  width: 0;
-  height: 0;
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  border-left: 3px solid #888;
-  position: absolute;
-  right: 8px;
-  top: 14px;
-}
-
-.sf-arrows > li > .sf-with-ul:focus:after,
-.sf-arrows > li:hover > .sf-with-ul:after,
-.sf-arrows > .sfHover > .sf-with-ul:after {
-  border-top-color: white;
-  /* IE8 fallback colour */
-}
-
-.sf-arrows ul li > .sf-with-ul:focus:after,
-.sf-arrows ul li:hover > .sf-with-ul:after,
-.sf-arrows ul .sfHover > .sf-with-ul:after {
-  border-left-color: #999;
-}
-
 .header-inner #mobnav-btn {
   position: absolute;
   width: 25px;
@@ -742,54 +708,6 @@ body.overflow-hidden-header-three {
   text-align: center;
 }
 
-.menu-search-bar {
-  position: relative;
-  cursor: pointer;
-}
-
-.menu-search-bar #search-label {
-  padding-left: 12px;
-}
-
-.menu-search-bar #search-label i {
-  font-size: 16px;
-}
-
-.search-bar {
-  position: absolute;
-  right: 8px;
-  margin-top: 15px;
-  display: none;
-}
-
-.search-bar input {
-  width: 235px;
-  height: 50px;
-  padding: 5px 20px;
-  border: solid 1px #eee;
-}
-
-.container_card{
-  margin-left: 40px;
-  margin-right: 20px;
-}
-
-h2{
-  color: black;
-}
-
-h3{
-  color: white;
-}
-
-h4{
-  color: black;
-  font-family: Orbitron, sans-serif;
-}
-
-h5{
-  color: white;
-}
 .products{
   /*border: 1px solid green;*/
   margin-left: 10px;
@@ -799,11 +717,6 @@ h5{
   justify-content: space-between;
 }
 
-.products tr td{
-  /*border: 1px solid rgb(0, 255, 170);*/
-  width: 2%;
-  /*margin-right: 20px;*/
-}
 
 /**** --------------------------- Card singola prodotto ----------------------------****/
 .vehicle_card_row_container{
@@ -1007,5 +920,3 @@ option:first-child{
   color: black;
   height: 3px;
 }
-
-
