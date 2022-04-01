@@ -846,6 +846,8 @@ body {
   max-width: 90%;
   position: relative;
   margin: auto;
+  /*Aggiunta margine*/
+  margin-top: 1%;
 }
 
 /* Next & previous buttons */
@@ -876,7 +878,12 @@ body {
   background-color: black;
   opacity: .5;
 }
+
+/* commento : Aggiunta animazioni per lo slider*/
 .mySlides > * {animation: 20s autoplay6  ;
+  position:relative; top: 0; left: 0; opacity: 1.0}
+
+.mySlides2 > * {animation: 20s autoplay6  ;
   position:relative; top: 0; left: 0; opacity: 1.0}
 
   @keyframes autoplay6 {
